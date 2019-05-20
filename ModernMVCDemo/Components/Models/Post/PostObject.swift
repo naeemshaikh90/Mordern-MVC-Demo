@@ -24,11 +24,11 @@ import Foundation
 import RealmSwift
 
 final public class PostObject: Object {
-  dynamic var id: Int = 0
-  dynamic var userId: Int = 0
-  dynamic var title: String = ""
-  dynamic var body: String = ""
-  dynamic var createdAt = Date()
+  @objc dynamic var id: Int = 0
+  @objc dynamic var userId: Int = 0
+  @objc dynamic var title: String = ""
+  @objc dynamic var body: String = ""
+  @objc dynamic var createdAt = Date()
   
   override public static func primaryKey() -> String {
     return "id"

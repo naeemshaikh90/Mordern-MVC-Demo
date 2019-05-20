@@ -23,7 +23,7 @@
 import UIKit
 
 class LoadingView: UIView {
-  fileprivate let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+  fileprivate let spinner = UIActivityIndicatorView(style: .gray)
   
   override init(frame: CGRect) {
     
